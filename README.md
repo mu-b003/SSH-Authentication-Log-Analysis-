@@ -33,7 +33,6 @@ The investigation included:
 ## Tools Used
 
 - grep
-- journalctl
 - systemctl
 - ip
 - ssh
