@@ -55,7 +55,7 @@ Used to simulate password authentication attempts in a controlled lab environmen
 ## View Authentication Logs
 
 ```bash
-sudo grep "Failed password" /var/log/auth.log
+sudo grep "Failed password for root" /var/log/auth.log
 ```
 
 Displays failed SSH authentication events.
@@ -63,7 +63,7 @@ Displays failed SSH authentication events.
 ---
 
 ```bash
-sudo grep "Accepted password" /var/log/auth.log
+sudo grep "Accepted password for root" /var/log/auth.log
 ```
 
 Displays successful SSH authentication events.
